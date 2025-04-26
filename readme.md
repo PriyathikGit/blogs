@@ -58,8 +58,8 @@ A full-stack blog platform with authentication and role-based authorization. Use
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/blog-platform-rbac.git
-cd blog-platform-rbac/backend
+git clone https://github.com/yourusername/blogs.git
+cd blogs/backend
 ```
 
 2. Install dependencies:
@@ -105,18 +105,18 @@ npm start
 ## 🌐 Running the Application
 
 1. Start both backend and frontend servers (in separate terminals):
-   - Backend: `npm start` (from backend directory)
-   - Frontend: `npm start` (from frontend directory)
+   - Backend: `npm run dev` (from backend directory)
+   - Frontend: `npm run dev` (from frontend directory)
 
 2. Open your browser and visit:
 ```
-http://localhost:3000
+http://localhost:5173/
 ```
 
 ## 📂 Project Structure
 
 ```
-blog-platform-rbac/
+blogs/
 ├── backend/
 │   ├── config/         # Configuration files
 │   ├── controllers/    # Route controllers
@@ -157,14 +157,6 @@ blog-platform-rbac/
 4. View and manage user accounts
 5. Assign/update user roles
 
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📄 License
 
